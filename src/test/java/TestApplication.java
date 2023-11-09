@@ -20,7 +20,7 @@ public class TestApplication {
 
                     @Override
                     public String controllerNameConvert(String tableName) {
-                        return this.entityNameConvert(tableName) + "Action";
+                        return this.entityNameConvert(tableName) + "Controller";
                     }
                 })
                 .build();
